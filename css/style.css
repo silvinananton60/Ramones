@@ -1,0 +1,96 @@
+.fondoColor {
+    background-color: rgb(217, 217, 217);
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    margin-right: 60px;
+}
+
+.logo a img {
+    width: 80%;
+    height: 80%;
+}
+
+.linea {
+    width: 90%;
+    height: 5px;
+    background-color: #333;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navegador {
+    text-align: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 20px;
+}
+
+.titulo {
+    font-size: 150px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.alinearImagenes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.espaciado {
+    margin-right: 30px;
+    border: 15px solid white;
+}
+
+.boton {
+    background-color: white;
+    border-radius: 10px;
+    font-size: 30px;
+    font-weight: bold;
+    width: 100%;
+}
+
+.cuidados {
+    text-align: center;
+}
+
+.cuidados p {
+    margin-left: 28%;
+    margin-right: 28%;
+}
+
+.subTitulo {
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.parrafoCiudados {
+    width: 40%;
+}
+
+.imgFotter img {
+    width: 10%;
+    margin-left: 65px;
+}
+
+.AlinearFooter {
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+.fin {
+    margin-left: 80px;
+}
