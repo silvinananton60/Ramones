@@ -7,100 +7,107 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ramone's</title>
     <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
 </head>
 
 <body class="fondoColor">
 
 
     <header>
-
-        <div class="header">
-
-            <div class="logo">
+        <nav class="navbar navbar-expand-sm container">
+            <div class="container-fluid logo">
                 <a href="index.html"><img src="Img/Logo.PNG"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav align-items-end ms-auto">
+                        <li class="nav-item ">
+                            <a class="nav-link active" aria-current="page" href="nosotros.html">Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="productos.html">Productos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="servicios.html">Servicios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-
-            <nav class="navegador">
-                <a href="nosotros.html">Nosotros</a>
-                <a href="productos.html">Productos</a>
-                <a href="servicios.html">Servicios</a>
-                <a href="contacto.html">Contacto</a>
-            </nav>
-        </div>
-
-
-        <hr class="linea" />
-
+        </nav>
     </header>
 
+    <hr class="linea" />
 
+    <h1 class="titulo">Ramone's</h1>
+    <main class="container">
 
-
-    <main>
-
-        <h1 class="titulo">Ramone's</h1>
-
-        <div class="alinearImagenes">
-            <div>
-                <div class="espaciado">
-                    <img width="310px" height="310px" src="Img/Imagen1.PNG" alt="ropa">
-                </div>
-                <button class="boton">
-					<a href="google.com">INDUMENTARIA</a>
-				</button>
+        <div id="carouselExampleCaptions" class="carousel slide viewDesktop" data-bs-ride="false">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
             </div>
-
-
-
-            <div>
-                <div class="espaciado">
-                    <img src="Img/Imagen2.PNG" alt="colchonetas y mats">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="Img/Imagen1.PNG" class="d-flex w-100" alt="...">
+                    <div class="carousel-caption d-md-block carousel">
+                        <a href="productos.html">INDUMENTARIA</a>
+                    </div>
                 </div>
-                <button class="boton">
-					<a href="">COLCHONETAS Y MATS</a>
-				</button>
-            </div>
+                <div class="carousel-item">
+                    <img src="Img/Imagen2.PNG" class="d-flex w-100" alt="...">
+                    <div class="carousel-caption  d-md-block carousel">
+                        <a href="productos.html">COLCHONETAS Y MATS</a>
 
-
-
-            <div>
-                <div class="espaciado">
-                    <img src="Img/Imagen3.PNG" alt="accesorios">
+                    </div>
                 </div>
-                <button class="boton">
-					<a href="google.com">ACCESORIOS</a>
-				</button>
+                <div class="carousel-item">
+                    <img src="Img/Imagen3.PNG" class="d-flex w-100" alt="...">
+                    <div class="carousel-caption d-md-block carousel">
+                        <a href="productos.html">ACCESORIOS</a>
+                    </div>
+                </div>
             </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				<span class="visually-hidden">Previous</span>
+			</button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+				<span class="carousel-control-next-icon" aria-hidden="true"></span>
+				<span class="visually-hidden">Next</span>
+			</button>
         </div>
 
     </main>
 
-    <section>
 
-        <div class="cuidados">
+    <section class="container">
 
-            <h2 class="subTitulo">Consejos Utiles</h2>
-
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/ACtfpB8DOeU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-            <p>Entre los principales cuidados, se encuentran una buena limpieza de oídos, mantener las uñas cortas y cepillar el pelo a menudo para eliminar el pelo muerto. Además, es importante limpiar entre los míticos pliegues de la piel para que no se
-                acumule suciedad y, al menos, bañarle una vez al mes.</p>
-
+        <h2 class="titulo">Consejos Utiles</h2>
+        <div class="video">
+            <iframe src="https://www.youtube.com/embed/ACtfpB8DOeU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
 
-        <hr class="linea" />
+        <p>Entre los principales cuidados, se encuentran una buena limpieza de oídos, mantener las uñas cortas y cepillar el pelo a menudo para eliminar el pelo muerto. Además, es importante limpiar entre los míticos pliegues de la piel para que no se acumule
+            suciedad y, al menos, bañarle una vez al mes.</p>
+
 
     </section>
+    <hr class="linea" />
 
     <footer>
 
-        <div class="AlinearFooter">
+        <div class="AlinearFooter col-12 container">
 
-            <div>
-                <p class="fin">Copyright Ramone's - 2022. Todos los derechos reservados.Defensa de las y los consumidores. Para reclamos ingrese <a href="contacto.html">aqui</a></p>
+            <div class="col-6 text-center">
+                <p>Copyright Ramone's - 2022. Todos los derechos reservados.Defensa de las y los consumidores. Para reclamos ingrese <a href="contacto.html">aqui</a></p>
             </div>
 
-            <div class="imgFotter">
+            <div class="imgFotter col-6">
                 <img src="Img/facebook.png" alt="">
                 <img src="Img/instagram.jpg" alt="">
                 <img src="Img/twitter.png" alt="">
@@ -113,7 +120,7 @@
     </footer>
 
 
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
 
 </body>
 
