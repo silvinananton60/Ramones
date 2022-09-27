@@ -1,5 +1,8 @@
+$fondoColor: rgb(217, 217, 217);
+@import 'nosotros';
+@import 'productos';
 .fondoColor {
-    background-color: rgb(217, 217, 217);
+    background-color: $fondoColor;
 }
 
 .logo a img {
@@ -84,20 +87,4 @@
         height: 50%;
         width: 50%;
     }
-}
-
-
-/* CSS Nosotros */
-
-.foto img {
-    width: 100%;
-    height: auto;
-}
-
-
-/* CSS Productos */
-
-#Remeras img {
-    width: 100%;
-    height: auto;
 }
