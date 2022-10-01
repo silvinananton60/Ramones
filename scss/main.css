@@ -93,4 +93,13 @@
     height: 50%;
     width: 50%;
   }
+}
+@media (min-width: 700px) {
+  .videoYparrafo {
+    display: flex;
+    align-items: center;
+  }
+}
+.videoYparrafo div {
+  margin: 20px;
 }/*# sourceMappingURL=main.css.map */
