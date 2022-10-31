@@ -1,105 +1,117 @@
 /* CSS Nosotros */
+
 .foto img {
-  width: 100%;
-  height: auto;
+    width: 100%;
+    height: auto;
 }
 
+
 /* CSS Productos */
+
 #Remeras img {
-  width: 100%;
-  height: auto;
-  border-radius: 10px;
+    width: 80%;
+    height: auto;
+    border-radius: 10px;
 }
 
 .fondoColor {
-  background-color: rgb(2, 0, 36);
-  background: linear-gradient(90deg, rgb(126, 124, 154) 6%, rgb(228, 225, 217) 53%);
+    background-color: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgb(126, 124, 154) 6%, rgb(228, 225, 217) 53%);
 }
 
 .logo a img {
-  width: 80%;
-  height: 80%;
+    width: 80%;
+    height: 80%;
 }
 
 .carousel a {
-  text-decoration: none;
-  background-color: white;
-  color: black;
-  border-radius: 5px;
-  border: 1px solid black;
-  font-weight: bold;
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    border: 1px solid black;
+    font-weight: bold;
 }
 
 .linea {
-  height: 5px;
-  background-color: #333;
-  width: 90%;
-  margin-left: auto;
-  margin-right: auto;
+    height: 5px;
+    background-color: #333;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .navegador {
-  text-align: right;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  font-size: 30px;
-  font-weight: bold;
-  margin: 20px;
+    text-align: right;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 20px;
 }
 
 .titulo {
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  font-weight: bold;
-  text-align: center;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  font-size: 80px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 80px;
 }
 
 .alinearImagenes {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
 
 .espaciado {
-  margin-right: 30px;
-  border: 15px solid white;
+    margin-right: 30px;
+    border: 15px solid white;
 }
 
 .boton {
-  background-color: white;
-  border-radius: 10px;
-  font-size: 30px;
-  font-weight: bold;
-  width: 100%;
+    background-color: white;
+    border-radius: 10px;
+    font-size: 30px;
+    font-weight: bold;
+    width: 100%;
 }
 
 .AlinearFooter {
-  display: flex;
-  text-align: center;
-  align-items: center;
+    display: flex;
+    text-align: center;
+    align-items: center;
 }
 
 .video {
-  display: flex;
-  justify-content: center;
+    display: flex;
+    justify-content: center;
 }
 
 @media (min-width: 600px) {
-  .viewDesktop {
-    margin-left: auto;
-    margin-right: auto;
-    height: 50%;
-    width: 50%;
-  }
+    .viewDesktop {
+        margin-left: auto;
+        margin-right: auto;
+        height: 50%;
+        width: 50%;
+    }
 }
+
 @media (min-width: 700px) {
-  .videoYparrafo {
-    display: flex;
-    align-items: center;
-  }
+    .videoYparrafo {
+        display: flex;
+        align-items: center;
+    }
 }
+
 .videoYparrafo div {
-  margin: 20px;
-}/*# sourceMappingURL=main.css.map */
+    margin: 20px;
+}
+
+.hoverProducto:hover {
+    cursor: pointer;
+}
+
+
+/*# sourceMappingURL=main.css.map */
